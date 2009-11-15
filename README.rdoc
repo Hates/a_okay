@@ -1,5 +1,4 @@
-AOkay
-=====
+= AOkay
 
 Simple controller that spits out if the server is reponding. Created after I stupidly set Pingdom to search for a specific term on our homepage, creating a huge spike in our MixPanel analytics.
 Now Pingdom just looks at /a_okay and tests for the string "Everything is a okay!"
