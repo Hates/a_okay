@@ -12,7 +12,7 @@ class AOkayControllerTest < ActionController::TestCase
 
   def test_show
     get :show
-    assert_equal "Everything is a okay!", @response.body
+    assert_equal "Everything is a-okay!", @response.body
   end
 
 end
