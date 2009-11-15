@@ -9,4 +9,17 @@ In the future I hope to add "a okay" testing for:
 * Mailers
 * Er, can't think of anythign else right now.
 
+= What it does
+
+/a_okay
+=> "Everything is a okay!"
+
+= What else?
+
+Sorry, that's it.
+
+= Come on, there must be more?
+
+No seriously, there isn't.
+
 Copyright (c) 2009 Richard Hart, released under the MIT license
