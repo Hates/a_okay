@@ -12,7 +12,7 @@ In the future I hope to add "a okay" testing for:
 = What it does
 
 /a_okay
-=> "Everything is a okay!"
+> "Everything is a okay!"
 
 = What else?
 
