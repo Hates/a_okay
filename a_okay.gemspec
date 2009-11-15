@@ -9,17 +9,32 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Richard Hart"]
-  s.date = %q{2009-11-14}
+  s.date = %q{2009-11-15}
   s.description = %q{A simple controller that just returns if everything is 'a okay'!}
   s.email = %q{richard@ur-ban.com}
   s.extra_rdoc_files = [
     "README.rdoc"
+  ]
+  s.files = [
+    "README.rdoc",
+     "Rakefile",
+     "VERSION",
+     "a_okay.gemspec",
+     "app/controllers/a_okay_controller.rb",
+     "config/routes.rb",
+     "lib/a_okay.rb",
+     "test/controllers/a_okay_controller_test.rb",
+     "test/test_helper.rb"
   ]
   s.homepage = %q{http://github.com/hates/a_okay}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{A simple controller that just returns if everything is 'a okay'!}
+  s.test_files = [
+    "test/controllers/a_okay_controller_test.rb",
+     "test/test_helper.rb"
+  ]
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
